@@ -6,16 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository":{
-    "type":"git",
-    "url":"https://github.com/catzzz/workflows.git"
-
-  }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/catzzz/workflows.git"
+  },
   "author": "Jimmy",
   "license": "ISC",
   "devDependencies": {
     "gulp": "^3.9.0",
+    "gulp-browserify": "^0.5.1",
     "gulp-coffee": "^2.3.1",
-    "gulp-util": "^3.0.7"
+    "gulp-util": "^3.0.7",
+    "jquery": "^2.2.0",
+    "mustache": "^2.2.1"
   }
 }
